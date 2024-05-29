@@ -1,6 +1,9 @@
 [package]
-name = "vlazed/ink-lua"
+name = "vlazed/rink"
 version = "0.1.0"
+license = "MIT"
+exclude = ["scripts"]
+include = ["default.project.json"]
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 
@@ -8,10 +11,6 @@ realm = "shared"
 shared-packages = "game.ReplicatedStorage.Packages"
 
 [dependencies]
-Polyfill = "jsdotlua/luau-polyfill@1.2.6"
-RegExp = "jsdotlua/luau-regexp@0.2.1"
-Sift = "csqrl/sift@0.0.9"
-Class = "vocksel/class@0.1.1"
 Import = "vocksel/import@2.1.0"
 
 
