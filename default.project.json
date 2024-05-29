@@ -1,10 +1,10 @@
 {
-  "name": "InkLua",
+  "name": "rink",
   "tree": {
     "$className": "DataModel",
 
     "ReplicatedStorage": {
-      "InkLua": {
+      "rink": {
         "$path": "src"
       },
       "Packages": {

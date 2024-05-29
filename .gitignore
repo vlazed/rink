@@ -1,6 +1,8 @@
 # Project place file
-/InkLua.rbxlx
-/InkLua.rbxl
+/rink.rbxlx
+/rink.rbxl
+
+sourcemap.json
 
 # Roblox Studio lock files
 /*.rbxlx.lock

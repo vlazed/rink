@@ -6,10 +6,10 @@ local processServiceExists, ProcessService = pcall(function()
 	return game:GetService("ProcessService")
 end)
 
-local status, result = runCLI(ReplicatedStorage.InkLua, {
+local status, result = runCLI(ReplicatedStorage.rink, {
 	verbose = false,
 	ci = false,
-}, { ReplicatedStorage.InkLua }):awaitStatus()
+}, { ReplicatedStorage.rink }):awaitStatus()
 
 if status == "Rejected" then
 	print(result)

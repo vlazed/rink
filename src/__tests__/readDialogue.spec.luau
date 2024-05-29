@@ -10,7 +10,7 @@ local expect = JestGlobals.expect
 local describe = JestGlobals.describe
 
 describe("read Simple", function()
-	local path = "/ReplicatedStorage/InkLua/__tests__/Simple"
+	local path = "/ReplicatedStorage/rink/__tests__/Simple"
 
 	-- Gotcha: possibly for Roblox, pink trims the last string. Might be a mistake as the length of a string shouldn't be trimmed at the end
 	it("prints every line in simple", function()
@@ -21,7 +21,7 @@ describe("read Simple", function()
 end)
 
 describe("read Dialogue1", function()
-	local path = "/ReplicatedStorage/InkLua/__tests__/Dialogue1"
+	local path = "/ReplicatedStorage/rink/__tests__/Dialogue1"
 	it("gets the story from Dialogue1", function()
 		expect(pink(path)).toBeDefined()
 	end)
