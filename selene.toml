@@ -1,5 +1,5 @@
 std = "roblox"
-exclude = ["Packages/*", "DevPackages/*"]
+exclude = ["Packages/*", "DevPackages/*", "scripts/*"]
 
 [config]
 empty_if = { comments_count = true }
