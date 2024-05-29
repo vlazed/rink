@@ -31,7 +31,7 @@ story.continue() -- Returns ""
 
 ## Gotchas
 
-Some of these gotchas reflect the expected behavior as documented in [Writing With Ink](https://github.com/inkle/ink/blob/master/Documentation/WritingWithInk.md). 
+Some of these gotchas reflects the expected behavior as documented in [Writing With Ink](https://github.com/inkle/ink/blob/master/Documentation/WritingWithInk.md). 
 
 - Ink files are `StringValues` in Roblox; they must have the `.txt` extension.
 - `story.continue()` returns all lines before selecting an option.
