@@ -1,0 +1,15 @@
+std = "roblox"
+exclude = ["Packages/*", "DevPackages/*"]
+
+[config]
+empty_if = { comments_count = true }
+unused_variable = { ignore_pattern = "result|ok|^_" }
+# this comes up when translating nested try/finally scenarios
+shadowing = { ignore_pattern = "result|ok|^_" }
+global_usage = { ignore_pattern = "^__" }
+
+[rules]
+global_usage = "allow"
+unused_variable = "allow"
+# remove when the Luau type narrowing issues (and the workarounds) are resolved
+shadowing = "allow"

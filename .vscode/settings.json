@@ -1,0 +1,7 @@
+{
+    "luau-lsp.completion.autocompleteEnd": true,
+    "luau-lsp.completion.imports.enabled": true,
+    "luau-lsp.hover.multilineFunctionDefinitions": true,
+    "editor.defaultFormatter": "JohnnyMorganz.stylua",
+    "editor.formatOnSave": true
+}

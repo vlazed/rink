@@ -1,0 +1,16 @@
+name: Git Semantic Version
+on: [push]
+jobs:
+  set-semantic-version:
+    name: Set Semantic Version
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: PaulHatch/semantic-version@v5.4.0
+        with:
+          bump_each_commit: true
+          bump_each_commit_patch_pattern: "(PATCH)"

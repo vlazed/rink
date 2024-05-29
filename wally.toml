@@ -1,0 +1,20 @@
+[package]
+name = "vlazed/ink-lua"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[place]
+shared-packages = "game.ReplicatedStorage.Packages"
+
+[dependencies]
+Polyfill = "jsdotlua/luau-polyfill@1.2.6"
+RegExp = "jsdotlua/luau-regexp@0.2.1"
+Sift = "csqrl/sift@0.0.9"
+Class = "vocksel/class@0.1.1"
+Import = "vocksel/import@2.1.0"
+
+
+[dev-dependencies]
+Jest = "jsdotlua/jest@3.6.1-rc.2"
+JestGlobals = "jsdotlua/jest-globals@3.6.1-rc.2"
